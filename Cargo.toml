@@ -12,10 +12,10 @@ description = """
 Replacement for crate (macro_rules keyword) in proc-macros
 """
 readme = "./README.md"
-rust-version = "1.67.0"
+rust-version = "1.76.0"
 
 [dependencies]
-toml_edit = { version = "0.23.2", default-features = false, features = [
+toml_edit = { version = "0.25.0", default-features = false, features = [
     "parse",
 ] }
 
